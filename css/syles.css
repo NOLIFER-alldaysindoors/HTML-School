@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 30, 2025, 2:57:49 PM
+    Author     : lukec
+*/
+
+nav{
+    text-align: center;
+}
+nav a{
+    color: #FFC300;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 5px 0 5px;
+}
+body{ 
+    cursor: url('Dog1.cur'), auto;
+}
+
+a,button{
+    cursor:url('Dog2.cur'), auto;
+}
+img{
+    cursor:url('Dog3.cur'), auto;
+}
