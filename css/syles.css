@@ -19,7 +19,6 @@ nav a{
 body{ 
      background-color: green;
     
-    cursor: url('Dog1.cur'), auto;
 }
 
 text{
@@ -38,9 +37,30 @@ button{
 }
 a,button{
 
-    margin: 0 auto;
-    cursor:url('Dog2.cur'), auto;
+    margin: 0 auto;  
 }
-img{
+
+
+#dog{
+
+    cursor:url('Dog1.cur'), auto;
+    
+    a,button{
+       cursor:url('Dog2.cur'), auto; 
+    }
+    img{
     cursor:url('Dog3.cur'), auto;
+}
+}
+
+#cat{
+
+    cursor:url('Cat2.cur'), auto;
+    
+    a,button{
+       cursor:url('Cat3.cur'), auto; 
+    }
+    img{
+    cursor:url('Cat1.cur'), auto;
+}
 }
