@@ -22,7 +22,7 @@ body{
 }
 
 text{
-    color: white;
+    color: white
 }
 img{
     display: block;
@@ -62,24 +62,26 @@ aside{
 
     cursor:url('Dog1.cur'), auto;
     
-    a,button{
+    
+   
+}
+#dog a,button{
        cursor:url('Dog2.cur'), auto; 
     }
-    img,section{
+ #dog img,section{
     cursor:url('Dog3.cur'), auto;
 }
-}
-
 #cat{
   
     cursor:url('Cat2.cur'), auto;
     
-    a,button{
+    
+}
+#cat a,button{
        cursor:url('Cat3.cur'), auto; 
     }
-    img,section{
+   #cat  img,section{
     cursor:url('Cat1.cur'), auto;
-}
 }
 /* classes */
 .respond{
