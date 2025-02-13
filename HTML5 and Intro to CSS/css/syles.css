@@ -65,10 +65,10 @@ aside{
     
    
 }
-#dog a,button{
+#dog a, #dog button{
        cursor:url('Dog2.cur'), auto; 
     }
- #dog img,section{
+ #dog img, #dog section{
     cursor:url('Dog3.cur'), auto;
 }
 #cat{
@@ -77,10 +77,10 @@ aside{
     
     
 }
-#cat a,button{
+#cat a, #cat button{
        cursor:url('Cat3.cur'), auto; 
     }
-   #cat  img,section{
+   #cat img, #cat section{
     cursor:url('Cat1.cur'), auto;
 }
 /* classes */
