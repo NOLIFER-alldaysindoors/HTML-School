@@ -40,7 +40,24 @@ a,button{
     margin: 0 auto;  
 }
 
+/* dont change!!! */
+main{
+    display:flex;
+        gap:13px;
+}
+/* dont change!!! */
 
+
+section{
+    background-color: orange;
+    flex:3;
+}
+aside{
+    flex:1;
+    background-color: cyan;
+    padding: 17px;
+    margin-left:1px;
+}
 #dog{
 
     cursor:url('Dog1.cur'), auto;
@@ -48,19 +65,31 @@ a,button{
     a,button{
        cursor:url('Dog2.cur'), auto; 
     }
-    img{
+    img,section{
     cursor:url('Dog3.cur'), auto;
 }
 }
 
 #cat{
-
+  
     cursor:url('Cat2.cur'), auto;
     
     a,button{
        cursor:url('Cat3.cur'), auto; 
     }
-    img{
+    img,section{
     cursor:url('Cat1.cur'), auto;
 }
+}
+/* classes */
+.respond{
+    width: 82%;
+    height:auto;
+}
+
+.column {
+    flex: 1; /* dont touch this */
+    background-color: #0065C4;
+    padding: 10px;
+
 }
