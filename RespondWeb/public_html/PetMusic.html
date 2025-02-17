@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/syles.css">
+    </head>
+       
+
+    <body>
+         <audio id='MusicWithPet' autoplay preload loop>
+             <source src="Music/_TengoSuerte.mp3" type="audio/mpeg"></audio>
+        <h1>Pets also love music!</h1>
+        <p>It is prooven that playing music for pets can help them calm down. However, some music is better at calming pets than others.</p>
+        <button onclick="changeSong('Music/_TengoSuerte.mp3')">Listen to start song again</button>
+
+        <nav>
+                <a href="index.html">Back</a>
+                <a href="dogs.html">Dogs</a>
+                <a href="cats.html">Cats</a>
+        </nav>
+        <main id="Music">
+        <div class="column">
+        <h2>Masayoshi Takanaka 
+        <button onclick="changeSong('Music/Beleza.mp3')">Play A Song</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/Mus1.jpg" alt="Takanka"/>
+            <p>Takanka's music is known as Fusion Jazz. Combing Jazz elements with more mordern equiment. His music is very cheery and happy. It's the kind of music that just makes you feel happy just to see the sun! His music is amazing if you are about to play with your pet, or your pet is just doing something very silly. Takanaka is a must listen to.</p>
+            <h3>Pets Owned</h3>
+            <p>Unfortentatly, not much information is known about Takanaka's pet cats. Although it was clear he loved them very much. He wrote songs about them (<i>Dancing to Cat Guitar</i> and <i>I Remember Puckle</i>) and adored cats. His music was even released under <i>Kitty Records</i>! Thus, Takanaka was a huge fan of cats.</p>
+        </section>
+        </div>
+        <div class="column">
+        <h2>Takanaka 
+        <button onclick="changeSong('Music/Beleza.mp3')">Template</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/Mus1.jpg" alt="Takanka"/>
+            <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+        </section>
+        </div>
+            <div class="column">
+        <h2>Chet Baker 
+        <button onclick="changeSong('Music/Falllove.mp3')">Play A Song</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/ChetBaker.jpg" alt="Baker"/>
+            <p>This Msucian, albeit older, produces the kind of music meant for rainy days. When you have a hot cocoa in your hand and a adorable dog/cat sleeping right next to you. Perfect for more peaceful pets. Or a pet that you just played and is out. Peaceful and Relaxing.</p>
+            <h3>Pets Owned</h3>
+            <p>Chet Baker breifly owned a dog during the 50s. His dog was a collie. Unfortently, he abodnded his dog in America. Hopefully the dog had a better life with a better owner. This was also the only pet he owned.</p>
+        </section>
+        </div>
+        </main>
+        <section>
+            <h2>Why smth</h2>
+            <p>blah blah</p>
+            
+        </section>
+        <script>
+        // Function to change the audio source
+        function changeSong(song) {
+            var audioPlayer = document.getElementById('MusicWithPet');
+            audioPlayer.src = song;  // Change the song source
+            audioPlayer.play();      // Start playing the new song immediately
+        }
+    </script>
+        
+    </body>
+</html>
