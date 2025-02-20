@@ -9,189 +9,125 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 
 /*phone*/
-
-@media(min-width:0px){
-    
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 25px;
-    }
-    p,div,ul,a{
+@media (min-width: 0px) {
+  h1 {
+    font-size: 30px; }
+  h2 {
+    font-size: 25px; }
+  p, div, ul, a {
     font-size: 20px;
     line-height: 1.5;
     padding: 8px;
-    list-style-position: inside;
-  }
-  nav{
-      padding: 12px;
-      background-color: #00308F;
-      margin-top:10px;
-      
-  }
-nav{
-    text-align: center;
-}
-nav a{
+    list-style-position: inside; }
+  nav {
+    padding: 12px;
+    background-color: #00308F;
+    margin-top: 10px; }
+  nav {
+    text-align: center; }
+  nav a {
     color: #FFC300;
     font-size: 22px;
     font-weight: 100;
-    margin: 0 5px 0 5px;
-}
-body{ 
-     background-color: green;
-    
-}
-
-text{
-    color: white
-}
-img{
+    margin: 0 5px 0 5px; }
+  body {
+    background-color: green; }
+  text {
+    color: white; }
+  img {
     display: block;
     width: 800px;
-    margin: 0 auto;
-}
-h1{
-    text-align: center;
-}
-button{
-    display: block;
-}
-a,button{
-
-    margin: 0 auto;  
-}
-section{
+    margin: 0 auto; }
+  h1 {
+    text-align: center; }
+  button {
+    display: block; }
+  a, button {
+    margin: 0 auto; }
+  section {
     background-color: orange;
-    flex:3;
-}
-
-aside{
-    flex:1;
+    flex: 3; }
+  aside {
+    flex: 1;
     background-color: cyan;
     padding: 17px;
-    margin-left:1px;
-}
-
-
-
-}
-
-
+    margin-left: 1px; } }
 
 /* dont change!!! */
 /*tablet*/
-@media(min-width: 750px){
-main{
-    display:flex;
-        gap:13px;
+@media (min-width: 750px) {
+  main {
+    display: flex;
+    gap: 13px; }
+  nav a {
+    font-size: 20px; }
+  #extra {
+    display: none; } }
 
-}
-nav a{
-    font-size:20px;
-}
-
-        #extra{
-    display:none;
-}
-
-
-}
 /*laptop*/
-@media(min-width:1000px){
-section,aside,nav {
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); 
-}
-
-    
-    body#MusicWithPet2{
-        background-image: url("KeyBoardCat.gif");
-        background-repeat: repeat;
-        background-size: 50px;
-        background-color:transparent;
-        h1{
-        padding:20px;
-        background-color: yellow;
-        }
-        p{
-            color:#ff9ab0;
-            background-color: #69CDE4;
-            border-radius: 100px;
-            text-spacing: punctuation;
-
-        }
-        section{
-            p{
-            color: black;
-            background-color: transparent;
-        }
-    }
-    }
-
-    
-    nav a{
-        font-size: 12px
-    }
-    #extra{
-    display:block;
-}
-}
+@media (min-width: 1000px) {
+  section, aside, nav {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); }
+  body#MusicWithPet2 {
+    background-image: url("KeyBoardCat.gif");
+    background-repeat: repeat;
+    background-size: 50px;
+    background-color: transparent; }
+    body#MusicWithPet2 h1 {
+      padding: 20px;
+      background-color: yellow; }
+    body#MusicWithPet2 p {
+      color: #ff9ab0;
+      background-color: #69CDE4;
+      border-radius: 100px; }
+    body#MusicWithPet2 section p {
+      color: black;
+      background-color: transparent; }
+  nav a {
+    font-size: 12px; }
+  #extra {
+    display: block; } }
 
 /*cusors*/
-#dog{
+#dog {
+  cursor: url("Dog1.cur"), auto; }
 
-    cursor:url('Dog1.cur'), auto;
-    
-    
-   
-}
-#dog a, #dog button{
-       cursor:url('Dog2.cur'), auto; 
-    }
-#dog img, #dog section{
-    cursor:url('Dog3.cur'), auto;
-}
-#cat{
-  
-    cursor:url('Cat2.cur'), auto;
-    
-    
-}
-#cat a, #cat button{
-       cursor:url('Cat3.cur'), auto; 
-    }
-#cat img, #cat section{
-    cursor:url('Cat1.cur'), auto;
-}
+#dog a, #dog button {
+  cursor: url("Dog2.cur"), auto; }
 
-#Music{
+#dog img, #dog section {
+  cursor: url("Dog3.cur"), auto; }
 
-    
-    img{
-        float: left;
-        width:70px;
-        height:70px;
-        border-radius:10px;
-        padding:4px;
-    }
-    button{
-        float:right;
-        
-    }
-}
+#cat {
+  cursor: url("Cat2.cur"), auto; }
+
+#cat a, #cat button {
+  cursor: url("Cat3.cur"), auto; }
+
+#cat img, #cat section {
+  cursor: url("Cat1.cur"), auto; }
+
+#Music img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 4px; }
+
+#Music button {
+  float: right; }
 
 /* classes */
-.respond{
-    width: 82%;
-    height:auto;
-}
-
-    
+.respond {
+  width: 82%;
+  height: auto; }
 
 .column {
-    flex: 1; /* dont touch this */
-    background-color: #0065C4;
+  flex: 1;
+  /* dont touch this */
+  background-color: #0065C4;
+  padding: 10px; }
+
     padding: 10px;
 
 }
