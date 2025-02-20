@@ -7,12 +7,35 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : lukec
 */
 
+
+/*phone*/
+
+@media(min-width:0px){
+    
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p,div,ul,a{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 8px;
+    list-style-position: inside;
+  }
+  nav{
+      padding: 12px;
+      background-color: #00308F;
+      margin-top:10px;
+      
+  }
 nav{
     text-align: center;
 }
 nav a{
     color: #FFC300;
-    font-size: 12px;
+    font-size: 22px;
     font-weight: 100;
     margin: 0 5px 0 5px;
 }
@@ -39,25 +62,83 @@ a,button{
 
     margin: 0 auto;  
 }
-
-/* dont change!!! */
-main{
-    display:flex;
-        gap:13px;
-}
-/* dont change!!! */
-
-
 section{
     background-color: orange;
     flex:3;
 }
+
 aside{
     flex:1;
     background-color: cyan;
     padding: 17px;
     margin-left:1px;
 }
+
+
+
+}
+
+
+
+/* dont change!!! */
+/*tablet*/
+@media(min-width: 750px){
+main{
+    display:flex;
+        gap:13px;
+
+}
+nav a{
+    font-size:20px;
+}
+
+        #extra{
+    display:none;
+}
+
+
+}
+/*laptop*/
+@media(min-width:1000px){
+section,aside,nav {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); 
+}
+
+    
+    body#MusicWithPet2{
+        background-image: url("KeyBoardCat.gif");
+        background-repeat: repeat;
+        background-size: 50px;
+        background-color:transparent;
+        h1{
+        padding:20px;
+        background-color: yellow;
+        }
+        p{
+            color:#ff9ab0;
+            background-color: #69CDE4;
+            border-radius: 100px;
+            text-spacing: punctuation;
+
+        }
+        section{
+            p{
+            color: black;
+            background-color: transparent;
+        }
+    }
+    }
+
+    
+    nav a{
+        font-size: 12px
+    }
+    #extra{
+    display:block;
+}
+}
+
+/*cusors*/
 #dog{
 
     cursor:url('Dog1.cur'), auto;
