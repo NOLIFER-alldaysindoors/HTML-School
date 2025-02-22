@@ -1,0 +1,164 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 30, 2025, 2:57:49 PM
+    Author     : lukec
+*/
+
+
+/*phone*/
+@media (min-width: 0px) {
+    
+    
+  h1 {
+    font-size: 30px;
+    background-color: teal;
+    padding:30px;
+  }
+  h2 {
+    font-size: 25px; }
+  p, div, ul, a {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 8px;
+    list-style-position: inside; 
+    margin:2px;
+  }
+  div{
+      border-radius: 50px;
+      border:1px solid orange;
+      margin:3px;
+  }
+  
+  nav {
+    padding: 12px;
+    background-color: #00308F;
+    margin-top: 10px; }
+  nav {
+    text-align: center; }
+  nav a {
+    color: #FFC300;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 0 5px 0 5px; }
+  body {
+    background-color: #0077be; 
+    border: 2px solid black;
+    border-radius: 14px;
+  }
+  text {
+    color: white; }
+  img {
+    display: block;
+    width: 800px;
+    margin: 0 auto; 
+    border:10px solid saddlebrown;
+    border-radius: 25px;
+  }
+  h1 {
+    text-align: center; }
+  button {
+    display: block; }
+  a, button {
+    margin: 0 auto; }
+  section {
+    background-color: orange;
+    flex: 3; 
+    border: 2px solid black;
+    border-radius:30px;
+    h1,h2,h3{
+        text-align: center;
+    }
+  
+  }
+  hr {
+  width: 50%;               /* Shorter width */
+  height: 1px;              /* Thicker line */
+  background-color: #1e4d2b;  /* Change color */
+  border-radius: 10px;      /* Curved edges */
+  border: none;             /* Remove default border */
+}
+
+  aside {
+    flex: 1;
+    background-color: cyan;
+    padding: 17px;
+    margin-left: 1px; } }
+
+/* dont change!!! */
+/*tablet*/
+@media (min-width: 750px) {
+  main {
+    display: flex;
+    gap: 13px; }
+  nav a {
+    font-size: 20px; }
+  #extra {
+    display: none; } }
+
+/*laptop*/
+@media (min-width: 1000px) {
+  section, aside, nav {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); }
+  body#MusicWithPet2 {
+    background-image: url("KeyBoardCat.gif");
+    background-repeat: repeat;
+    background-size: 50px;
+    background-color: transparent; }
+    body#MusicWithPet2 h1 {
+      padding: 20px;
+      background-color: yellow; }
+    body#MusicWithPet2 p {
+      color: #ff9ab0;
+      background-color: #69CDE4;
+      border-radius: 100px; }
+    body#MusicWithPet2 section p {
+      color: black;
+      background-color: transparent; }
+  nav a {
+    font-size: 12px; }
+  #extra {
+    display: block; } }
+
+/*cusors*/
+#dog {
+  cursor: url("Dog1.cur"), auto; }
+
+#dog a, #dog button {
+  cursor: url("Dog2.cur"), auto; }
+
+#dog img, #dog section {
+  cursor: url("Dog3.cur"), auto; }
+
+#cat {
+  cursor: url("Cat2.cur"), auto; }
+
+#cat a, #cat button {
+  cursor: url("Cat3.cur"), auto; }
+
+#cat img, #cat section {
+  cursor: url("Cat1.cur"), auto; }
+
+#Music img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 4px; }
+
+#Music button {
+  float: right; }
+
+/* classes */
+.respond {
+  width: 82%;
+  height: auto; }
+
+.column {
+  flex: 1;
+  /* dont touch this */
+  background-color: #0065C4;
+  padding: 10px; }
+

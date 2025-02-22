@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<HTML lang="en">
+    <head>
+        <title>PetMusic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/syles.css">
+    </head>
+       
+
+    <body id="MusicWithPet2">
+         <audio id='MusicWithPet' autoplay preload loop>
+             <source src="Music/_TengoSuerte.mp3" type="audio/mpeg"></audio>
+        <h1>Pets also love music!</h1>
+        <p>It is prooven that playing music for pets can help them calm down. However, some music is better at calming pets than others.</p>
+        <button onclick="changeSong('Music/_TengoSuerte.mp3')">Listen to start song again</button>
+
+        <nav>
+                <a href="index.html">Back</a>
+                <a href="dogs.html">Dogs</a>
+                <a href="cats.html">Cats</a>
+        </nav>
+        <main id="Music">
+        <div class="column">
+        <h2>Masayoshi Takanaka 
+        <button onclick="changeSong('Music/Beleza.mp3')">Play A Song</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/Mus1.jpg" alt="Takanka">
+            <p>Takanka's music is known as Fusion Jazz. Combing Jazz elements with more mordern equiment. His music is very cheery and happy. It's the kind of music that just makes you feel happy just to see the sun! His music is amazing if you are about to play with your pet, or your pet is just doing something very silly. Takanaka is a must listen to.</p>
+            <h3>Pets Owned</h3>
+            <p>Unfortentatly, not much information is known about Takanaka's pet cats. Although it was clear he loved them very much. He wrote songs about them (<i>Dancing to Cat Guitar</i> and <i>I Remember Puckle</i>) and adored cats. His music was even released under <i>Kitty Records</i>! Thus, Takanaka was a huge fan of cats.</p>
+        </section>
+        </div>
+        <div class="column" id="extra">
+        <h2>Classical Musicans 
+        <button onclick="changeSong('Music/Pas_Si_Simple.mp3')">Play A Song</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/KeyBoardCat.gif" alt="KeyBoardCat">
+            <p>Classical Music is by far a classic to put on for your pets when you leave the house. I believe it's for good cause as well. It's backed by science, is extremly easy to find and turn on for the pets, and makes others think you (and your pets) are smart. A classic choice, pun intended</p>
+            <h3>Notable pets owned by muscians</h3>
+            <h4>Pulcinella</h4>
+            <p>Pulcinella was Domencio Scarlatti's cat. She spent alot of time with Scarlatti, frequently laying near him as he produced music. One day, she walked on his piano keys, hitting the notes that were at the start his piece <i>Cat's Fugue</i></p>
+            <h4>Mina</h4>
+            <p>Mina was a dog owned by Sir Edward Elgar. Sir Elgar owned two other dogs which both heavily influenced his work. However, after the passing of his wife, Mina became the new center of his life.</p>
+        </section>
+        </div>
+            <div class="column">
+        <h2>Chet Baker 
+        <button onclick="changeSong('Music/Falllove.mp3')">Play A Song</button>
+        </h2>    
+        <section>
+            <img src="Music/Pics/ChetBaker.jpg" alt="Baker">
+            <p>This Msucian, albeit older, produces the kind of music meant for rainy days, which is Jazz in my opoinon. When you have a hot cocoa in your hand and a adorable dog/cat sleeping right next to you. Perfect for more peaceful pets. Or a pet that you just played and is out. Peaceful and Relaxing.</p>
+            <h3>Pets Owned</h3>
+            <p>Chet Baker breifly owned a dog during the 50s. His dog was a collie. Unfortently, he abodnded his dog in America. Hopefully the dog had a better life with a better owner. This was also the only pet he owned.</p>
+        </section>
+        </div>
+        </main>
+        <section>
+            <h2>Does music actually calm pets?</h2>
+            <p>Yes</p>
+            <p>Like for humans, music can also influence pets. A article by the American Kennel Club found that dogs agitation levels do decrease from listening to music. specfiacly classical music. Classical music also encourages dogs to sleep and not bark. Other articles report the same affects for cats, reducing anxiety like with dogs. Though cats are more picky than dogs when it comes to music.</p>
+            
+        </section>
+        <script>
+        // Function to change the audio source
+        function changeSong(song) {
+            var audioPlayer = document.getElementById('MusicWithPet');
+            audioPlayer.src = song;  // Change the song source
+            audioPlayer.play();      // Start playing the new song immediately
+        }
+    </script>
+            <footer>
+        <p>Side tab is just a generalzation. every pet is differnt in their own way.</p>
+        &copy; 2025-2026
+    </footer>
+    </body>
+
+</html>
