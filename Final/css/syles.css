@@ -37,14 +37,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     background-color: #00308F;
     margin-top: 10px; }
   nav {
-    text-align: center; }
+    text-align: center; 
+    border-radius: 1200px;
+
+  }
   nav a {
     color: #FFC300;
     font-size: 22px;
     font-weight: 100;
     margin: 0 5px 0 5px; }
   body {
-    background-color: #0077be; 
+    background-color: #99c6e3; 
     border: 2px solid black;
     border-radius: 14px;
   }
@@ -52,9 +55,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     color: white; }
   img {
     display: block;
-    width: 800px;
     margin: 0 auto; 
-    border:10px solid saddlebrown;
+    border:5px solid saddlebrown;
     border-radius: 25px;
   }
   h1 {
@@ -64,7 +66,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   a, button {
     margin: 0 auto; }
   section {
-    background-color: orange;
+    background-color: #b87333;
     flex: 3; 
     border: 2px solid black;
     border-radius:30px;
@@ -82,8 +84,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 }
 
   aside {
+      h1{
+          background-color: #c26a3a;
+
+          color:#e0c9a6;
+          border: 5px solid transparent;
+          border-image: linear-gradient(to right, #e0c9a6, #c26a3a) 1;
+                    border-radius: 5px;
+      }
     flex: 1;
-    background-color: cyan;
+    background-color: #e0c9a6;
     padding: 17px;
     margin-left: 1px; } }
 
@@ -100,6 +110,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 /*laptop*/
 @media (min-width: 1000px) {
+    aside{
+        width: 532px;
+        flex-grow: 1;
+    }
+    img{
+          max-width:82%;
+    }
   section, aside, nav {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); }
   body#MusicWithPet2 {
@@ -146,7 +163,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   width: 70px;
   height: 70px;
   border-radius: 10px;
-  padding: 4px; }
+  padding: 4px; 
+  border:none;
+}
 
 #Music button {
   float: right; }
