@@ -7,6 +7,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : lukec
 */
 
+/*fonts*/
+
+@font-face {
+  font-family: 'custom';
+  src: url('mono/webfonts/GeistMono-light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*phone*/
 @media (min-width: 0px) {
@@ -16,6 +25,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     font-size: 30px;
     background-color: teal;
     padding:30px;
+    border:1px solid black;
   }
   h2 {
     font-size: 25px; }
@@ -41,6 +51,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     border-radius: 1200px;
 
   }
+  
+  nav a{
+      border:#ff9ab0 solid;
+      background: linear-gradient(to bottom, #ff9ab0, #00308F);
+      
+}
   nav a {
     color: #FFC300;
     font-size: 22px;
@@ -50,6 +66,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     background-color: #99c6e3; 
     border: 2px solid black;
     border-radius: 14px;
+    font-family: 'custom';
   }
   text {
     color: white; }
