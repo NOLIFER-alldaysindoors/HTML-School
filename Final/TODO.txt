@@ -5,6 +5,8 @@
 Make favicon
 1 auido or 1 video
 complete redsign of website
+    homepage: background of sections be playing the video. bigger h1, sections of paragraphs. WoW style i guess
+              Fox section at the end
     "add a 5th page to the site you have been working on though out the semester and completely redesign the site and incorporating the requirements below."
 use webfonts!!!
 =======

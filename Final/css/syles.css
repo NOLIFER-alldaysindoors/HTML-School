@@ -19,8 +19,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 /*phone*/
 @media (min-width: 0px) {
-    
-    
+   div#cat{
+            background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fh2yt9gf6r0n11.jpg&f=1&nofb=1&ipt=c9062e7766f212f793918fb2cc31a8ce40451a3e4e9d7ab2f8e79416454593e1&ipo=images');
+
+    }
+    div#dog{
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpbonlife.com%2Fwp-content%2Fuploads%2F2020%2F10%2FScreen-Shot-2020-10-27-at-11.29.00-AM-739x1024.png&f=1&nofb=1&ipt=0975b77d83832d58b08471b4eacc6fe6f0d7cfcdd6d952333d9e676af7479386&ipo=images');
+    }
   h1 {
     font-size: 30px;
     background-color: teal;
@@ -35,6 +40,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     padding: 8px;
     list-style-position: inside; 
     margin:2px;
+    background-color: #F7B7C6;
   }
   div{
       border-radius: 50px;
@@ -72,6 +78,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     color: white; }
   img {
     display: block;
+    float: left;
     margin: 0 auto; 
     border:5px solid saddlebrown;
     border-radius: 25px;
@@ -109,6 +116,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
           border-image: linear-gradient(to right, #e0c9a6, #c26a3a) 1;
                     border-radius: 5px;
       }
+      p{
+          background-color: transparent;
+      }
     flex: 1;
     background-color: #e0c9a6;
     padding: 17px;
@@ -118,8 +128,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 /*tablet*/
 @media (min-width: 750px) {
   main {
-    display: flex;
+    display: flex; 
+    
+    
     gap: 13px; }
+  main#index{
+        flex-direction: column;
+    }
   nav a {
     font-size: 20px; }
   #extra {
@@ -132,7 +147,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
         flex-grow: 1;
     }
     img{
-          max-width:82%;
+          max-width:880px;
     }
   section, aside, nav {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3); }
@@ -182,6 +197,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
   border-radius: 10px;
   padding: 4px; 
   border:none;
+}
+#Music p{
+
+          background-color: transparent;
 }
 
 #Music button {
