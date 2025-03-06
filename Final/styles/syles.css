@@ -1,0 +1,230 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 30, 2025, 2:57:49 PM
+    Author     : lukec
+*/
+
+ @font-face {
+	font-family: 'custom';
+	src: url("mono/webfonts/GeistMono-light.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+@media (min-width: 0px) {
+	body {
+		font-family: custom,sans-serif;
+	}
+	div#cat {
+		background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fh2yt9gf6r0n11.jpg&f=1&nofb=1&ipt=c9062e7766f212f793918fb2cc31a8ce40451a3e4e9d7ab2f8e79416454593e1&ipo=images");
+	}
+	div#dog {
+		background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpbonlife.com%2Fwp-content%2Fuploads%2F2020%2F10%2FScreen-Shot-2020-10-27-at-11.29.00-AM-739x1024.png&f=1&nofb=1&ipt=0975b77d83832d58b08471b4eacc6fe6f0d7cfcdd6d952333d9e676af7479386&ipo=images");
+	}
+	h1 {
+		font-size: 30px;
+		background-color: teal;
+		padding: 30px;
+		border: 1px solid black;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	p, div, ul, a {
+		font-size: 20px;
+		line-height: 1.5;
+		padding: 8px;
+		list-style-position: inside;
+		margin: 2px;
+		background-color: #F7B7C6;
+	}
+	div {
+		border-radius: 50px;
+		border: 1px solid orange;
+		margin: 3px;
+	}
+	nav {
+		padding: 12px;
+		background-color: #00308F;
+		margin-top: 10px;
+	}
+	nav {
+		text-align: center;
+		border-radius: 1200px;
+	}
+	nav a {
+		border: #ff9ab0 solid;
+		background: linear-gradient(to bottom, #ff9ab0, #00308F);
+	}
+	nav a {
+		color: #FFC300;
+		font-size: 22px;
+		font-weight: 100;
+		margin: 0 5px 0 5px;
+	}
+	body {
+		background-color: #99c6e3;
+		border: 2px solid black;
+		border-radius: 14px;
+		font-family: 'custom';
+	}
+	text {
+		color: white;
+	}
+	img {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		border: 5px solid saddlebrown;
+		border-radius: 25px;
+	}
+	h1 {
+		text-align: center;
+	}
+	button {
+		display: block;
+	}
+	a, button {
+		margin: 0 auto;
+	}
+	section {
+		background-color: #b87333;
+		flex: 3;
+		border: 2px solid black;
+		border-radius: 30px;
+	}
+	section h1, section h2, section h3 {
+		text-align: center;
+	}
+	hr {
+		width: 50%;
+		height: 1px;
+		background-color: #1e4d2b;
+		border-radius: 10px;
+		border: none;
+	}
+	aside {
+		flex: 1;
+		background-color: #e0c9a6;
+		padding: 17px;
+		margin-left: 1px;
+	}
+	aside h1 {
+		background-color: #c26a3a;
+		color: #e0c9a6;
+		border: 5px solid transparent;
+		border-image: linear-gradient(to right, #e0c9a6, #c26a3a) 1;
+		border-radius: 5px;
+	}
+	aside p {
+		background-color: transparent;
+	}
+}
+@media (min-width: 750px) {
+	main {
+		display: flex;
+		gap: 13px;
+	}
+	main #col {
+		display: flex;
+	}
+	img#col {
+		max-width: 300px;
+	}
+	nav a {
+		font-size: 20px;
+	}
+	#extra {
+		display: none;
+	}
+	div#fox1 {
+		max-width: 280px;
+	}
+	ul#fox {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 0;
+		text-align: center;
+	}
+}
+@media (min-width: 1000px) {
+	aside {
+		width: 532px;
+		flex-grow: 1;
+	}
+	img {
+		max-width: 880px;
+	}
+	section, aside, nav {
+		box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+	}
+	body#MusicWithPet2 {
+		background-image: url("../Images/masayoshi-takanaka.gif");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	body#MusicWithPet2 h1 {
+		padding: 20px;
+		background-color: yellow;
+	}
+	body#MusicWithPet2 p {
+		color: #ff9ab0;
+		background-color: #69CDE4;
+		border-radius: 30px;
+	}
+	body#MusicWithPet2 section p {
+		color: black;
+		background-color: transparent;
+	}
+	nav a {
+		font-size: 12px;
+	}
+	#extra {
+		display: block;
+	}
+}
+#dog {
+	cursor: url("Dog1.cur"), auto;
+}
+#dog a, #dog button {
+	cursor: url("Dog2.cur"), auto;
+}
+#dog img, #dog section {
+	cursor: url("Dog3.cur"), auto;
+}
+#cat {
+	cursor: url("Cat2.cur"), auto;
+}
+#cat a, #cat button {
+	cursor: url("Cat3.cur"), auto;
+}
+#cat img, #cat section {
+	cursor: url("Cat1.cur"), auto;
+}
+#Music img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 10px;
+	padding: 4px;
+	border: none;
+}
+#Music p {
+	background-color: transparent;
+}
+#Music button {
+	float: right;
+}
+.respond {
+	width: 82%;
+	height: auto;
+	max-width: 300px;
+}
+.column {
+	flex: 1;
+	background-color: #0065C4;
+	padding: 10px;
+}
